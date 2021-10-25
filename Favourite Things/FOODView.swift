@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  FOODView.swift
 //  Favourite Things
 //
 //  Created by Suzanne Tian on 2021-10-21.
@@ -7,16 +7,17 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct FOODView: View {
     var body: some View {
-        Image("Angel")
+        Image("FOOD")
             .resizable()
             .scaledToFit()
+            
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct FOODView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        FOODView()
     }
 }
