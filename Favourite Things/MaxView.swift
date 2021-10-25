@@ -9,9 +9,14 @@ import SwiftUI
 
 struct MaxView: View {
     var body: some View {
-        Image("Max")
-            .resizable()
-            .scaledToFit()
+        VStack {
+            
+            Image("Max")
+                .resizable()
+                .scaledToFit()
+            
+            Text("This is my dog Max. He is still a puppy, but when Max stand up, he is as tall as me !")
+        }
     }
 }
 

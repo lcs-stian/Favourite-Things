@@ -9,15 +9,28 @@ import SwiftUI
 
 struct FOODView: View {
     var body: some View {
-        Image("FOOD")
-            .resizable()
-            .scaledToFit()
+        VStack {
             
+            Image("FOOD")
+                .resizable()
+                .scaledToFit()
+            
+            Text("I love having food with my family and friends. This is a BBQ I had in the summer.")
+            .padding()
+            
+            Spacer()
+            
+            
+        }
+        .navigationBarTitle("BBQ")
     }
 }
 
 struct FOODView_Previews: PreviewProvider {
     static var previews: some View {
-        FOODView()
+        NavigationView{
+            FOODView()
+            
+        }
     }
 }
