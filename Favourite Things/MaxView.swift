@@ -9,6 +9,9 @@ import SwiftUI
 
 struct MaxView: View {
     var body: some View {
+        ScrollView {
+            
+        }
         VStack {
             
             Image("Max")
