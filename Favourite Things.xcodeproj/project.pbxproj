@@ -13,6 +13,7 @@
 		805506CC2721EF5E00C52DA0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 805506CB2721EF5E00C52DA0 /* Preview Assets.xcassets */; };
 		805506D32721F4A500C52DA0 /* MaxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805506D22721F4A500C52DA0 /* MaxView.swift */; };
 		805506D52721F61B00C52DA0 /* FOODView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805506D42721F61B00C52DA0 /* FOODView.swift */; };
+		80D795F7272854C000C8F00C /* FavouriteThingsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D795F6272854C000C8F00C /* FavouriteThingsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		805506CB2721EF5E00C52DA0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		805506D22721F4A500C52DA0 /* MaxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxView.swift; sourceTree = "<group>"; };
 		805506D42721F61B00C52DA0 /* FOODView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FOODView.swift; sourceTree = "<group>"; };
+		80D795F6272854C000C8F00C /* FavouriteThingsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		80D795F527284FA300C8F00C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				80D795F6272854C000C8F00C /* FavouriteThingsListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			files = (
 				805506D52721F61B00C52DA0 /* FOODView.swift in Sources */,
 				805506C72721EF5600C52DA0 /* ContentView.swift in Sources */,
+				80D795F7272854C000C8F00C /* FavouriteThingsListView.swift in Sources */,
 				805506C52721EF5600C52DA0 /* Favourite_ThingsApp.swift in Sources */,
 				805506D32721F4A500C52DA0 /* MaxView.swift in Sources */,
 			);
