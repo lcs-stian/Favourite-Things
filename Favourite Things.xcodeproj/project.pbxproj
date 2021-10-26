@@ -56,11 +56,12 @@
 			isa = PBXGroup;
 			children = (
 				805506C42721EF5600C52DA0 /* Favourite_ThingsApp.swift */,
+				80D795F527284FA300C8F00C /* Views */,
 				805506C62721EF5600C52DA0 /* ContentView.swift */,
-				805506C82721EF5D00C52DA0 /* Assets.xcassets */,
-				805506CA2721EF5E00C52DA0 /* Preview Content */,
 				805506D22721F4A500C52DA0 /* MaxView.swift */,
 				805506D42721F61B00C52DA0 /* FOODView.swift */,
+				805506C82721EF5D00C52DA0 /* Assets.xcassets */,
+				805506CA2721EF5E00C52DA0 /* Preview Content */,
 			);
 			path = "Favourite Things";
 			sourceTree = "<group>";
@@ -71,6 +72,13 @@
 				805506CB2721EF5E00C52DA0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		80D795F527284FA300C8F00C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
