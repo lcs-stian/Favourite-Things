@@ -10,9 +10,31 @@ import SwiftUI
 struct FavouriteThingsListView: View {
     var body: some View {
         List {
-            Text("Angle")
-            Text("Max")
-            Text("FOOD")
+            
+            NavigationLink(destination: {
+                AngelView()
+            }, label: {
+                Text("Angel")
+            })
+            
+        
+            NavigationLink(destination: {
+                MaxView()
+            }, label: {
+                Text("Max")
+            })
+            
+            NavigationLink(destination: {
+                FOODView()
+            }, label: {
+                Text("FOOD")
+            })
+           
+            NavigationLink(destination: {
+                LittleRiceView
+            }, label: {
+                Text("Littlerice")
+            })
             
             
         }
@@ -22,6 +44,9 @@ struct FavouriteThingsListView: View {
 
 struct FavouriteThingsListView_Previews: PreviewProvider {
     static var previews: some View {
-        FavouriteThingsListView()
+        NavigationView {
+            FavouriteThingsListView()
+        }
+        
     }
 }

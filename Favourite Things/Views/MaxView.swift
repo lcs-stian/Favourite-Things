@@ -20,11 +20,14 @@ struct MaxView: View {
             
             Text("This is my dog Max. He is still a puppy, but when Max stand up, he is as tall as me !")
         }
+        .navigationBarTitle("Max")
     }
 }
 
 struct MaxView_Previews: PreviewProvider {
     static var previews: some View {
-        MaxView()
+        NavigationView {
+            MaxView()
+        }
     }
 }
