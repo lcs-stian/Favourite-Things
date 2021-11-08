@@ -17,7 +17,7 @@ struct FavouriteThingsListView: View {
                 Text("Angel")
             })
             
-        
+            
             NavigationLink(destination: {
                 MaxView()
             }, label: {
@@ -29,24 +29,38 @@ struct FavouriteThingsListView: View {
             }, label: {
                 Text("FOOD")
             })
-           
+            
             NavigationLink(destination: {
-                LittleRiceView
+                LittleRiceView()
             }, label: {
-                Text("Littlerice")
+                Text("LittleRice")
             })
             
-            
-        }
-        .navigationTitle("Favourite Thing App")
-    }
-}
-
-struct FavouriteThingsListView_Previews: PreviewProvider {
-    static var previews: some View {
-        NavigationView {
-            FavouriteThingsListView()
-        }
-        
-    }
-}
+            NavigationLink(destination: {
+                IcecreamView()
+            }, label: {
+                Text("Icecream")
+            })
+                           
+                           NavigationLink(destination: {
+                FogView()
+            }, label: {
+                Text("Fog")
+            })
+                           
+                           
+                           
+                           
+                           }
+                            .navigationTitle("Favourite Thing App")
+                           }
+                           }
+                           
+                           struct FavouriteThingsListView_Previews: PreviewProvider {
+                static var previews: some View {
+                    NavigationView {
+                        FavouriteThingsListView()
+                    }
+                    
+                }
+            }

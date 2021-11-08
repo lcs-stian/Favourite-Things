@@ -14,9 +14,10 @@
 		805506D52721F61B00C52DA0 /* FOODView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805506D42721F61B00C52DA0 /* FOODView.swift */; };
 		80D795F7272854C000C8F00C /* FavouriteThingsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D795F6272854C000C8F00C /* FavouriteThingsListView.swift */; };
 		80D795F9272861E900C8F00C /* LittleRiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D795F8272861E900C8F00C /* LittleRiceView.swift */; };
-		80D795FB2728645100C8F00C /* MusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D795FA2728645100C8F00C /* MusicView.swift */; };
-		80D7961A2734591F00C8F00C /* NatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D796192734591F00C8F00C /* NatureView.swift */; };
+		80D795FB2728645100C8F00C /* IcecreamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D795FA2728645100C8F00C /* IcecreamView.swift */; };
+		80D7961A2734591F00C8F00C /* FogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D796192734591F00C8F00C /* FogView.swift */; };
 		80D7961C2734598B00C8F00C /* AngelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D7961B2734598A00C8F00C /* AngelView.swift */; };
+		80D7961F27345EF300C8F00C /* PhotoCaptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D7961E27345EF300C8F00C /* PhotoCaptionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,9 +29,10 @@
 		805506D42721F61B00C52DA0 /* FOODView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FOODView.swift; sourceTree = "<group>"; };
 		80D795F6272854C000C8F00C /* FavouriteThingsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsListView.swift; sourceTree = "<group>"; };
 		80D795F8272861E900C8F00C /* LittleRiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleRiceView.swift; sourceTree = "<group>"; };
-		80D795FA2728645100C8F00C /* MusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicView.swift; sourceTree = "<group>"; };
-		80D796192734591F00C8F00C /* NatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatureView.swift; sourceTree = "<group>"; };
+		80D795FA2728645100C8F00C /* IcecreamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IcecreamView.swift; sourceTree = "<group>"; };
+		80D796192734591F00C8F00C /* FogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FogView.swift; sourceTree = "<group>"; };
 		80D7961B2734598A00C8F00C /* AngelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngelView.swift; sourceTree = "<group>"; };
+		80D7961E27345EF300C8F00C /* PhotoCaptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,15 +84,24 @@
 		80D795F527284FA300C8F00C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				80D7961D27345EA500C8F00C /* Share */,
 				80D795F6272854C000C8F00C /* FavouriteThingsListView.swift */,
 				80D7961B2734598A00C8F00C /* AngelView.swift */,
-				80D795FA2728645100C8F00C /* MusicView.swift */,
 				805506D22721F4A500C52DA0 /* MaxView.swift */,
 				805506D42721F61B00C52DA0 /* FOODView.swift */,
+				80D795FA2728645100C8F00C /* IcecreamView.swift */,
+				80D796192734591F00C8F00C /* FogView.swift */,
 				80D795F8272861E900C8F00C /* LittleRiceView.swift */,
-				80D796192734591F00C8F00C /* NatureView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		80D7961D27345EA500C8F00C /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				80D7961E27345EF300C8F00C /* PhotoCaptionView.swift */,
+			);
+			path = Share;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,8 +177,9 @@
 				805506D52721F61B00C52DA0 /* FOODView.swift in Sources */,
 				80D795F7272854C000C8F00C /* FavouriteThingsListView.swift in Sources */,
 				80D795F9272861E900C8F00C /* LittleRiceView.swift in Sources */,
-				80D795FB2728645100C8F00C /* MusicView.swift in Sources */,
-				80D7961A2734591F00C8F00C /* NatureView.swift in Sources */,
+				80D795FB2728645100C8F00C /* IcecreamView.swift in Sources */,
+				80D7961A2734591F00C8F00C /* FogView.swift in Sources */,
+				80D7961F27345EF300C8F00C /* PhotoCaptionView.swift in Sources */,
 				805506C52721EF5600C52DA0 /* Favourite_ThingsApp.swift in Sources */,
 				80D7961C2734598B00C8F00C /* AngelView.swift in Sources */,
 				805506D32721F4A500C52DA0 /* MaxView.swift in Sources */,

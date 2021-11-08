@@ -10,21 +10,17 @@ import SwiftUI
 struct FOODView: View {
     var body: some View {
         ScrollView {
-        VStack {
-                Image("FOOD")
-                    .resizable()
-                    .scaledToFit()
+            
+            PhotoCaptionView(imageName: "FOOD", caption: "food", credit: "Myself")
+            
+            Text("I love having food with my family and friends. This is a BBQ I had in the summer.")
+            
+            Text("Trees. It was something about the trees. The way they swayed with the wind in unison. The way they shaded the area around them. The sounds of their leaves in the wind and the creaks from the branches as they sway, The trees were making a statement that I just couldn't understand.")
                 
-                Text("I love having food with my family and friends. This is a BBQ I had in the summer.")
-                .padding()
-                
-                Spacer()
-                
-               
-            }
             
         }
-        .navigationBarTitle("BBQ")
+        .navigationBarTitle("FOOD")
+    
     }
 }
 
