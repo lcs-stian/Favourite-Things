@@ -60,7 +60,7 @@ struct FavouriteThingsListView: View {
             
             NavigationLink(destination:LittleRiceView()) {
                 HStack {
-                    Image ("LittleRice")
+                    Image ("little rice")
                         .resizable()
                         .scaledToFit()
                         .frame(width: 50, height: 50, alignment: .center)
@@ -110,6 +110,10 @@ struct FavouriteThingsListView: View {
 
 struct FavouriteThingsListView_Previews: PreviewProvider {
     static var previews: some View {
-        FavouriteThingsListView()
+        NavigationView {
+            FavouriteThingsListView()
+        }
+        
+      
     }
 }

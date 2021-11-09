@@ -27,7 +27,7 @@ struct PhotoCaptionView: View {
         
         
 
-        VStack(alignment: .leading) {
+        VStack(spacing: 10) {
             
             //Creat instant for a view
             Image(imageName)
@@ -45,7 +45,7 @@ struct PhotoCaptionView: View {
             .font(.caption)
             
         }
-        
+        .padding(.vertical)
     }
 }
 
